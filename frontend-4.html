@@ -1,0 +1,8 @@
+대충 유사 DB 통신 예제입니다.
+
+<script>
+  fetch('http://localhost:3000')
+    .then(res => res.json())
+    .then(data => console.log(data))
+    .catch(err => console.error(err));
+</script>

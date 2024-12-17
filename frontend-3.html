@@ -1,0 +1,8 @@
+백엔드랑 통신 예제입니다.
+
+<script>
+  fetch('http://localhost:3000/api/hello')
+    .then(res => res.json())
+    .then(data => console.log(data))
+    .catch(err => console.error(err));
+</script>
